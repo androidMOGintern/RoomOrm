@@ -496,6 +496,7 @@ public class Test_Sample extends AppCompatActivity {
 //            isInViewMode = false;
 //        }else{
 //
+        
 //            isInViewMode = true;
 //        }
         // TODO fetch from the socket if the quiz start then call showQuestionLayout()
