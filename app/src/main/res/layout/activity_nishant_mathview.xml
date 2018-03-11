@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <!--<io.github.kexanie.library.MathView-->
+                    <!--android:layout_margin="15dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--http:engine="MathJax"-->
+                    <!--android:id="@+id/mathview1"/>-->
+
+
+                 <!--<io.github.kexanie.library.MathView-->
+                    <!--android:layout_margin="15dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_below="@id/mathview1"-->
+                     <!--http:engine="MathJax"-->
+                     <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/mathview2"/>-->
+
+            <!--<io.github.kexanie.library.MathView-->
+                <!--http:engine="MathJax"-->
+                <!--android:layout_margin="15dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_below="@id/mathview2"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/mathview3"/>-->
+
+            <!--<io.github.kexanie.library.MathView-->
+                    <!--android:layout_margin="15dp"-->
+                <!--http:engine="MathJax"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_below="@id/mathview3"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/mathview4"/>-->
+
+            <!--<io.github.kexanie.library.MathView-->
+                    <!--android:layout_margin="15dp"-->
+                <!--http:engine="MathJax"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_below="@id/mathview4"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/mathview5"/>-->
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview6"/>
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview6"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview7"/>
+
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview7"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview8"/>
+
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview8"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview9"/>
+
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview9"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview10"/>
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview10"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview11"/>
+
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview11"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview12"/>
+
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview12"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview13"/>
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview13"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview14"/>
+
+
+                <katex.hourglass.in.mathlib.MathView
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/mathview14"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mathview15"/>
+
+
+
+
+
+        </RelativeLayout>
+
+</ScrollView>

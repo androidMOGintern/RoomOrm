@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/responseRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeToNextTVResponse"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/timeToNextTVResponse"
+        android:id="@+id/responseHeaderCardView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:id="@+id/textView_responseHeaderCardView"/>
+
+    </android.support.v7.widget.CardView>
+
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/responseHeaderCardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cardView_optionA"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        style="@style/CustomProgressBarTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:visibility="gone"
+                        android:id="@+id/optionA_responseProgressbar"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="10dp"
+                        android:id="@+id/optionA_ResponseTextView"
+                        android:text="A) 9K Attempted"/>
+
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cardView_optionB"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        style="@style/CustomProgressBarTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:visibility="gone"
+                        android:id="@+id/optionB_responseProgressbar"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="10dp"
+                        android:id="@+id/optionB_ResponseTextView"
+                        android:text="B) 9K Attempted"/>
+
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:id="@+id/cardView_optionC"
+                android:layout_weight="1">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        style="@style/CustomProgressBarTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:visibility="gone"
+                        android:id="@+id/optionC_responseProgressbar"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="10dp"
+                        android:id="@+id/optionC_ResponseTextView"
+                        android:text="C) 9K Attempted"/>
+
+                </FrameLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/cardView_optionD"
+                app:cardElevation="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        style="@style/CustomProgressBarTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:visibility="gone"
+                        android:id="@+id/optionD_responseProgressbar"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="10dp"
+                        android:id="@+id/optionD_ResponseTextView"
+                        android:text="D) 9K Attempted"/>
+
+                </FrameLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

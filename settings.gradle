@@ -1,0 +1,1 @@
+include ':app', 'katexLib', ':katexmathview', ':katexlib'

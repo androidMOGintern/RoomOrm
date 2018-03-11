@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:theme="@style/CustomTheme"
+    tools:context="com.example.sahil.roomorm.Test_Sample">
+
+    <include layout="@layout/sample_test_fragment_layout"
+        android:visibility="gone"/>
+
+    <include layout="@layout/correct_or_incorrect_layout"
+        android:visibility="gone"/>
+
+    <include layout="@layout/response_layout"
+        android:visibility="gone"/>
+
+</RelativeLayout>
